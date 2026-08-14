@@ -1,0 +1,51 @@
+# Rust
+target/
+**/*.rs.bk
+
+# Node
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+*.dmg
+*.app/
+
+# Tauri
+src-tauri/target/
+src-tauri/gen/
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+*.tmp
+*.local
+
+# Local runtime data and diagnostics
+*.log
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+logs/
+output/
+
+# Signing and notarization credentials
+*.cer
+*.crt
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+
+# Local release archives
+*.zip
+*.bundle
+
+# Hermes
+.hermes/

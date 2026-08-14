@@ -1,0 +1,4 @@
+# bun 配置。注意：[test] 段只对 `bun test` 生效，不影响 bun run * 脚本。
+[test]
+# FRB-009：bun test 原生无 DOM 环境，预载 jsdom 全局（见 test/setup-bun-dom.ts）。
+preload = ["./test/setup-bun-dom.ts"]

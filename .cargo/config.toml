@@ -1,0 +1,8 @@
+# FRB-010：仅支持 Apple Silicon (arm64) macOS 26+。
+# 显式默认 target，使下方 target-specific rustflags 只作用于 target crate，
+# 不污染 host 过程宏（避免 ld-27037 在 minOS>=14 产出损坏 dylib 导致 E0463）。
+[build]
+target = "aarch64-apple-darwin"
+
+[target.aarch64-apple-darwin]
+rustflags = ["-C", "link-arg=-mmacosx-version-min=26.0"]
