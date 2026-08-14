@@ -30,7 +30,7 @@ Intel Mac 和更早的 macOS 版本不在当前支持范围内。
 
 ## 安装
 
-1. 从 GitHub Releases 下载 `KeyM-0.1.0-macOS.dmg`。
+1. 从 GitHub Releases 下载 `KeyM-0.1.0-macOS-arm64.dmg`。
 2. 打开 DMG，将 KeyM 拖入“应用程序”。
 3. 因应用未使用 Apple Developer ID 签名和公证，首次启动请右键 KeyM 并选择“打开”；如果仍被阻止，请前往“系统设置 → 隐私与安全性”选择“仍要打开”。
 4. 从“应用程序”启动 KeyM。
@@ -122,7 +122,7 @@ Intel Macs and earlier macOS releases are outside the current support range.
 
 ## Installation
 
-1. Download `KeyM-0.1.0-macOS.dmg` from GitHub Releases.
+1. Download `KeyM-0.1.0-macOS-arm64.dmg` from GitHub Releases.
 2. Open the DMG and drag KeyM into Applications.
 3. Because KeyM is not signed or notarized with an Apple Developer ID, Control-click KeyM and choose Open. If macOS still blocks it, use System Settings → Privacy & Security → Open Anyway.
 4. Launch KeyM from Applications.
