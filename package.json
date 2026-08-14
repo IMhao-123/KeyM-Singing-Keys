@@ -1,7 +1,7 @@
 {
   "name": "keym",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "KeyM — macOS keyboard sounds and typing statistics",
   "license": "CC0-1.0",
   "type": "module",

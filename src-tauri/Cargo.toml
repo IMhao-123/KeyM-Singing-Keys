@@ -1,6 +1,6 @@
 [package]
 name = "keym"
-version = "1.0.0"
+version = "0.1.0"
 description = "KeyM — macOS keyboard sounds and typing statistics"
 authors = ["IMhao-123"]
 license = "CC0-1.0"

@@ -4,7 +4,7 @@
   <p>让每一次敲击都有声音，也留下只属于这台 Mac 的节奏。</p>
 </div>
 
-> 当前版本：`1.0.0`。支持 Apple Silicon Mac，系统范围为 macOS 26 至 27。KeyM 完全离线运行，不上传键盘与统计数据。
+> 当前版本：`0.1.0`。支持 Apple Silicon Mac，系统范围为 macOS 26 至 27。KeyM 完全离线运行，不上传键盘与统计数据。
 
 键标 KeyM 是一款常驻 macOS 菜单栏的键盘音效与打字统计工具。它为普通按键播放轻量的内置声音，提供 11 种主题、音量与声音开关，并在本地显示今日按键、累计按键和累计点击数据。修饰键本身保持安静；常用系统快捷键也可以配置为静音组合，但统计仍会正常记录。
 
@@ -18,7 +18,7 @@
 - 常用快捷键静音列表；修饰键自身不发声，输入仍会计入统计。
 - 单实例运行、权限状态提示、旧数据库与旧设置兼容。
 
-静音时段、静音应用、自定义音效、WPM 展示和成就系统不包含在 `1.0.0` 中。
+静音时段、静音应用、自定义音效、WPM 展示和成就系统不包含在 `0.1.0` 中。
 
 ## 系统要求
 
@@ -30,7 +30,7 @@ Intel Mac 和更早的 macOS 版本不在当前支持范围内。
 
 ## 安装
 
-1. 从 GitHub Releases 下载 `KeyM-1.0.0-macOS.dmg`。
+1. 从 GitHub Releases 下载 `KeyM-0.1.0-macOS.dmg`。
 2. 打开 DMG，将 KeyM 拖入“应用程序”。
 3. 因应用未使用 Apple Developer ID 签名和公证，首次启动请右键 KeyM 并选择“打开”；如果仍被阻止，请前往“系统设置 → 隐私与安全性”选择“仍要打开”。
 4. 从“应用程序”启动 KeyM。
@@ -96,11 +96,11 @@ KEYM_TEST_DATA_DIR=/tmp/keym-test bunx tauri dev
 
 ## English
 
-> Current version: `1.0.0`. KeyM supports Apple Silicon Macs running macOS 26 or 27. It works fully offline and never uploads keyboard or statistics data.
+> Current version: `0.1.0`. KeyM supports Apple Silicon Macs running macOS 26 or 27. It works fully offline and never uploads keyboard or statistics data.
 
 KeyM is a macOS menu bar utility for keyboard sounds and local typing statistics. It plays lightweight built-in sounds for regular keys, offers 11 sound themes, volume and sound controls, and shows today's keystrokes, total keystrokes, and total clicks. Modifier keys stay silent. Common system shortcuts can also be muted while their input is still counted.
 
-## Version 1 Features
+## First Release Features
 
 - 11 built-in sound themes, including iPad, mechanical switch, typewriter, electrostatic, 8-bit, wooden fish, and raindrop styles.
 - Persistent sound and volume controls.
@@ -110,7 +110,7 @@ KeyM is a macOS menu bar utility for keyboard sounds and local typing statistics
 - Configurable muted shortcuts; modifier keys themselves are silent and statistics remain active.
 - Single-instance behavior, visible permission health, and compatibility with existing local data and settings.
 
-Quiet hours, per-application muting, custom sounds, WPM displays, and achievements are not included in `1.0.0`.
+Quiet hours, per-application muting, custom sounds, WPM displays, and achievements are not included in `0.1.0`.
 
 ## Requirements
 
@@ -122,7 +122,7 @@ Intel Macs and earlier macOS releases are outside the current support range.
 
 ## Installation
 
-1. Download `KeyM-1.0.0-macOS.dmg` from GitHub Releases.
+1. Download `KeyM-0.1.0-macOS.dmg` from GitHub Releases.
 2. Open the DMG and drag KeyM into Applications.
 3. Because KeyM is not signed or notarized with an Apple Developer ID, Control-click KeyM and choose Open. If macOS still blocks it, use System Settings → Privacy & Security → Open Anyway.
 4. Launch KeyM from Applications.

@@ -125,7 +125,7 @@ export function AboutSection() {
       <div className="settings-section-title">关于</div>
       <div className="settings-row">
         <span className="settings-label">版本</span>
-        <span className="settings-value">键标 KeyM 1.0.0</span>
+        <span className="settings-value">键标 KeyM 0.1.0</span>
       </div>
       <div className="settings-hint">纯本地运行，数据不上传。键盘音效与打字统计工具。</div>
     </div>
